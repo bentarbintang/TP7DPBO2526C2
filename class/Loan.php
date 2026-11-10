@@ -2,8 +2,8 @@
 // Class untuk mengontrol tabel `loans` (transaksi peminjaman).
 // Tabel ini punya foreign key ke `equipment` dan `borrowers`,
 // serta mengatur perubahan stok alat saat pinjam / kembali / hapus.
-class Loan
-{
+
+class Loan {
     private $db; // koneksi PDO
 
     public function __construct($db)
@@ -16,10 +16,10 @@ class Loan
     public function getAllLoans() {
         $stmt = $this->db->prepare(
             "SELECT l.*, e.name AS equipment_name, b.name AS borrower_name
-             FROM loans l
-             JOIN equipment e ON l.equipment_id = e.id
-             JOIN borrowers b ON l.borrower_id = b.id
-             ORDER BY l.id DESC"
+            FROM loans l
+            JOIN equipment e ON l.equipment_id = e.id
+            JOIN borrowers b ON l.borrower_id = b.id
+            ORDER BY l.id DESC"
         );
         $stmt->execute();
         return $stmt->fetchAll();

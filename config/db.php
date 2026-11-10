@@ -1,7 +1,6 @@
 <?php
 // File konfigurasi: berisi class Database untuk membuat koneksi ke MySQL memakai PDO.
-class Database
-{
+class Database {
     // Kredensial koneksi (sesuaikan jika MySQL kamu memakai password / port lain)
     private $host = 'localhost';
     private $db_name = 'db_sports_loan';

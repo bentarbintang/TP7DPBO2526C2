@@ -1,7 +1,7 @@
 <?php
 // Class untuk mengontrol tabel `borrowers` (data peminjam).
-class Borrower
-{
+
+class Borrower {
     private $db; // koneksi PDO
 
     public function __construct($db)

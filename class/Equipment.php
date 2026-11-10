@@ -1,7 +1,7 @@
 <?php
 // Class untuk mengontrol tabel `equipment` (data alat olahraga dan stoknya).
-class Equipment
-{
+
+class Equipment {
     private $db; // koneksi PDO
 
     // Koneksi diberikan dari luar (index.php) saat objek dibuat
