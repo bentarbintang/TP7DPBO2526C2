@@ -11,7 +11,7 @@ class Borrower {
 
     // READ: ambil semua peminjam
     public function getAllBorrowers() {
-        $stmt = $this->db->prepare("SELECT * FROM borrowers ORDER BY id DESC");
+        $stmt = $this->db->prepare("SELECT * FROM borrowers ORDER BY id ASC");
         $stmt->execute();
         return $stmt->fetchAll();
     }

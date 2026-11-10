@@ -19,7 +19,7 @@ class Loan {
             FROM loans l
             JOIN equipment e ON l.equipment_id = e.id
             JOIN borrowers b ON l.borrower_id = b.id
-            ORDER BY l.id DESC"
+            ORDER BY l.id ASC"
         );
         $stmt->execute();
         return $stmt->fetchAll();
