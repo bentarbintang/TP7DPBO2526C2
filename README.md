@@ -122,3 +122,18 @@ Tambahan di `Loan`: `returnLoan` untuk proses pengembalian alat.
 ---
 
 ## 5. Dokumentasi 
+
+# halaman equipment atau alat
+<img width="959" height="532" alt="image" src="https://github.com/user-attachments/assets/0a15b9f4-2789-4be3-89ad-0e90e882019f" />
+
+# halaman borrowers atau peminjam
+<img width="958" height="526" alt="image" src="https://github.com/user-attachments/assets/3d8d8458-df18-446c-9ea3-c3df2b0e43e7" />
+
+# halaman loans atau peminjaman
+<img width="959" height="531" alt="image" src="https://github.com/user-attachments/assets/ddce69bc-8809-4b93-8a26-d418e96e8826" />
+
+# CRUD di tabel alat 
+https://github.com/user-attachments/assets/5f5b0ed3-846a-45f6-bfdc-b8c74c7ddc6b
+
+# CRUD di tabel peminjam
+
