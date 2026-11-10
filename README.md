@@ -136,4 +136,8 @@ Tambahan di `Loan`: `returnLoan` untuk proses pengembalian alat.
 https://github.com/user-attachments/assets/5f5b0ed3-846a-45f6-bfdc-b8c74c7ddc6b
 
 # CRUD di tabel peminjam
+https://github.com/user-attachments/assets/336aca1e-0ffb-409a-b355-27750ca99953
+
+# CRUD di tabel peminjaman
+https://github.com/user-attachments/assets/de2ad6a0-b161-48ae-a62a-61fc39c40992
 
